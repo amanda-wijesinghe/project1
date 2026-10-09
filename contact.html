@@ -1,0 +1,58 @@
+<!DOCTYPE>
+<html>
+
+<head>
+ <link rel="stylesheet" href="style.css">
+ <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<img src="purple-flowers.jpeg" alt="purple flower field" class="full-width-img">
+
+ <h1> Contact Page </h1>
+
+ <h2>Please Contact Me</h2>
+ <p>If you would like to inquire about custom flower art, whether it's your birth flower or your favourite flower, please leave your name, email, and a message below.</p>
+
+ <h2>Click for examples of custom flower art</h2>
+
+<div class="text-center-container"> 
+ 
+ <button type="button" onclick="showImage('engravedImage')"><h3>Engraved Flower Coaster</h3></button>
+
+ <img id="engravedImage" src="images/engraved-flower.jpeg" alt="engraved flower coaster" width="300" height="300" style="display: none;">
+
+ <button type="button" onclick="showImage('printImage')"><h3>Flower Photo Print</h3></button>
+
+ <img id="printImage" src="images/flower-print.jpg" alt="flower picture" width="300" height="500" style="display: none;">
+
+ <button type="button" onclick="showImage('mosaicImage')"><h3>Mosaic Flower Coaster</h3></button>
+ 
+ <img id="mosaicImage" src="images/mosaic-flower.jpeg" alt="mosaic flower coaster" width="300" height="300" style="display: none;">
+ 
+ <button type="button" onclick="showImage('drawingImage')"><h3>Flower Drawing</h3></button>
+
+ <img id="drawingImage" src="images/drawing-flower.jpeg" alt="drawn flower" width="300" height="400" style="display: none;">
+
+</div>
+
+ <form action="https://formsubmit.co/amandawij3006@gmail.com" method="POST">
+
+  <label for="name"><h3>Your Name:<h3></label>
+  <input type="text" id="name" name="name">
+
+  <label for="email"><h3>Your Email:</h3></label>
+  <input type="email" id="email" name="email">
+
+  <label for="message"><h3>Your Message:</h3></label>
+  <textarea id="message" name="message"></textarea>
+
+  <button type="submit"><h3>Send Message</h3></button>
+
+ </form>
+
+ <p>This website was created by Amanda Wijesinghe student ID:100196684</p>
+</body>
+
+</html>
